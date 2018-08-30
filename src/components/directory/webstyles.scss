@@ -1,0 +1,141 @@
+.ListItem {
+    width : 100%;
+    border-bottom : 0.01em solid #a4a4a4 !important ;
+    }
+    .ListItem__head {
+    padding : 0 9px;
+    display : flex;
+    align-items : center;
+    height : 64px;
+    }
+    .mehr {
+    text-align : right;
+    }
+    .search {
+    position : relative;
+    }
+    .title {
+    color : white;
+    }
+    .search input {
+    width : 100%;
+    }
+    .search input + label {
+    position : absolute;
+    top : 0;
+    }
+    .accordion__item .icon {
+    width : 2em;
+    height : 2em;
+    display : inline-block;
+    margin-right : 0.5em;
+    }
+    .accordion__item .content {
+    display : inline-block;
+    }
+    .ListItem {
+    width : 100%;
+    color : #a4a4a4;
+    }
+    .ListItem:hover {
+    background-color : #222;
+    }
+    .ListItem.ListItem--clickable {
+    cursor : pointer;
+    width : 100%;
+    }
+    .ListItem .ListItem__head .ListItem__Arrow i:before {
+    content : "\F105";
+    font-size : 20px;
+    }
+    .ListItem .ListItem__head .ListItem__Arrow {
+    width : 20px;
+    opacity : 0.60000002384185791015625;
+    }
+    .ListItem .ListItem__head {
+    padding : 0 9px;
+    display : flex;
+    align-items : center;
+    height : 64px;
+    }
+    .ListItem.ListItem--accordion {
+    cursor : pointer;
+    }
+    .ListItem .ListItem__head .ListItem__Image img {
+    height : 100%;
+    outline : 1px solid rgba(0, 0, 0, 0.08);
+    }
+    .ListItem .ListItem__head .ListItem__Image {
+    height : 40px;
+    width : 40px;
+    margin-right : 10px;
+    }
+    .ListItem .ListItem__head .ListItem__Title .ListItem__Title--headline {
+    margin : 0;
+    }
+    .ListItem__Title {
+    width : calc(100% - 50px);
+    }
+    .ListItem__Title--headline {
+    text-overflow : ellipsis;
+    white-space : nowrap;
+    overflow : hidden;
+    }
+    .ListItem .ListItem__head .ListItem__Title .ListItem__Title--description {
+    margin : 0;
+    font-size : 85%;
+    opacity : 0.75;
+    }
+    .Suchen .accordion.accordion--open .accordion__head .Suche {
+    opacity : 1;
+    transform : translateZ(0);
+    }
+    .Suche {
+    position : relative;
+    display : flex;
+    align-items : flex-start;
+    max-height : 28px;
+    }
+    .Suche.Suche--accordion {
+    width : 40%;
+    float : right;
+    margin-left : auto;
+    order : 2;
+    }
+    .accordion label i {
+    font-size : 14px !important ;
+    }
+    .accordion__head--search--wrapper:before {
+    display : inline-block;
+    }
+    .Suchen .accordion .accordion__head .Suche {
+    transition : opacity 0.3s, transform 0.3s;
+    opacity : 0;
+    transform : translate3d(100%,0,0);
+    position : absolute;
+    top : 4px;
+    right : 9px;
+    }
+    .Suche.Suche--accordion input, .Suche.Suche--accordion label i {
+    font-size : 14px !important ;
+    }
+    .Suche input {
+    width : 100%;
+    background-color : transparent;
+    border-width : 0 0 0.01em !important ;
+    border-color : #a4a4a4 !important ;
+    border-radius : 0 !important ;
+    }
+    .Suche label {
+    max-height : 28px;
+    position : absolute;
+    top : 0;
+    right : 0;
+    bottom : 0;
+    display : flex;
+    align-items : center;
+    }
+    .accordion:not(.accordion--open) .Suche.Suche--accordion {
+    display : none;
+    }
+ 
