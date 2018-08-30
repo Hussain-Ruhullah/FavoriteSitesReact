@@ -12,7 +12,6 @@ const App = () => (
     <div>
         <Intro/>
         <Content/>
-        <ToLearn />
     </div>
 
     
