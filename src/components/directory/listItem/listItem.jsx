@@ -1,11 +1,12 @@
 import React from 'react';
 
+//Stateless Component
 const ListItem = (props) => (
     <div className="ListItem ListItem--clickable template">
         <a href={`https://chayns.net/${props.siteId}/`} target="_blank" >
             <div className="ListItem__head" >
                 <div className="ListItem__Image">
-                    <img style={{width: '40px', backgroundSize: `40px 40px`, backgroundImage: `url(` + `https://sub60.tobit.com/l/${props.locationId}` + `)`, }} />
+                    <img style={{ width: '40px', backgroundSize: `40px 40px`, backgroundImage: `url(` + `https://sub60.tobit.com/l/${props.locationId}` + `)`, }} />
 
                 </div>
                 <div className="ListItem__Title">

@@ -1,6 +1,6 @@
 import React from 'react';
-import Form from './register/form';
-import SiteList from './directory/listcontainer'
+import Form from './register/Form';
+import SiteList from './directory/listItem/Listcontainer'
 
 export default class Content extends React.Component {
     constructor(props) {
@@ -14,11 +14,11 @@ export default class Content extends React.Component {
         };
     }
 
-   
+
     render() {
         return (
             <div className="tapp__content content">
-               
+
                 <Form />
                 <SiteList />
             </div>
